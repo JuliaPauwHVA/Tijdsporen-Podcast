@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    gap: 1em;
+    font-family: Arial, sans-serif;
+    background-color: #585858;
+    color: #ffffff;
+}
+
+.logo img {
+    width: 300px;
+    height: auto;
+    display: block;
+}
+
+h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3em;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3em 0.6em;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+header ul li a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #fff;
+    padding: 0.3em 0.6em;
+    border-radius: 0.3em;
+}
+
+
+header nav ul li a:hover {
+    background-color: #605e5d;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3em 0.6em;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+footer ul li a {
+    font-size: 1em;
+    text-decoration: none;
+    color: #fff;
+    padding: 0.3em 0.6em;
+    border-radius: 0.3em;
+}
+
+
+footer nav ul li a:hover {
+    background-color: #605e5d;
+}
+
+.welkomtekst {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    padding: 1.7em;
+}
+
+.tekst-home {
+    flex: 1;
+}
+
+.video-home {
+    flex: 1;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+.afleveringen {
+    padding: 1em;
+}
+
+.aflevering {
+    background-color: rgb(121, 119, 119);
+    margin: 1em 0;
+    padding: 0.5em;
+    border-radius: 1em;
+    display: flex;
+    align-items: flex-start;
+    gap: 1em;
+}
+
+.aflevering-image {
+    width: 150px;
+    height: auto;
+    border-radius: 0.5em;
+}
+
+.aflevering-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.aflevering-content h2 {
+    margin: 0 0 0.6em;
+}
+
+.aflevering-content p {
+    margin: 0 0 1em;
+}
+
+.aflevering h2 {
+    margin: 0;
+}
+
+.aflevering audio {
+    width: 100%;
+    margin-top: 0.6em;
+}
+
+.aflevering a {
+    font-size: 1em;
+    text-decoration: none;
+    color: #fff;
+    padding: 0.3em 0.6em;
+    border-radius: 0.3em;
+}
+
+.over-ons {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    padding: 1.7em;
+}
+
+.tekst-over-ons {
+    flex: 1;
+}
+
+.image-over-ons {
+    flex: 1;
+}
