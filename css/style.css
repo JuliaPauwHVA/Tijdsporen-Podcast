@@ -13,10 +13,11 @@ body {
 }
 
 h1 {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 3em;
 }
 
+/*Header*/
 header {
     background-color: #333;
     color: #fff;
@@ -32,7 +33,6 @@ header ul {
     justify-content: space-between;
 }
 
-
 header ul li a {
     font-size: 1.5em;
     text-decoration: none;
@@ -41,42 +41,11 @@ header ul li a {
     border-radius: 0.3em;
 }
 
-
 header nav ul li a:hover {
     background-color: #605e5d;
 }
 
-
-
-footer {
-    background-color: #333;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    padding: 0.3em 0.6em;
-}
-
-footer ul {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-
-footer ul li a {
-    font-size: 1em;
-    text-decoration: none;
-    color: #fff;
-    padding: 0.3em 0.6em;
-    border-radius: 0.3em;
-}
-
-
-footer nav ul li a:hover {
-    background-color: #605e5d;
-}
-
+/*Home pagina*/
 .welkomtekst {
     display: flex;
     align-items: center;
@@ -97,6 +66,7 @@ video {
     height: auto;
 }
 
+/*Afleveringen pagina*/
 .afleveringen {
     padding: 1em;
 }
@@ -148,6 +118,7 @@ video {
     border-radius: 0.3em;
 }
 
+/*Over Ons pagina*/
 .over-ons {
     display: flex;
     align-items: center;
@@ -161,4 +132,32 @@ video {
 
 .image-over-ons {
     flex: 1;
+}
+
+/*Footer*/
+footer {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3em 0.6em;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer ul li a {
+    font-size: 1em;
+    text-decoration: none;
+    color: #fff;
+    padding: 0.3em 0.6em;
+    border-radius: 0.3em;
+}
+
+footer nav ul li a:hover {
+    background-color: #605e5d;
 }
